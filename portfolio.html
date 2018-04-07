@@ -2,163 +2,82 @@
 <html>
 
 <head>
-<meta charset="UTF-8">
-<title>VAMANLAN</title>
-<style>
-    body{
-        background-color: white;
-        widows: 100%;
-        height:100;
-        background-image:url("assets/images/circles-light.png");
-    }
-    #container{
-        width:960px;
-        height: 455px;
-        background-color:#FFFFFF;
-        border: thin;
-        border-color: #dddddd;
-        margin-left:175px;
-        margin-right:175px;
-        margin-top:60px;
-        margin-bottom: 100px;
-        padding:20px;
-    }
-    h1 {
-        background-color: #4AAAA5;
-        position:relative;
-        float:left;
-        font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
-        color:white;
-        width:197;
-        height:70px;
-        margin-left:175px;
-        margin-top:0px;
+    <meta charset="UTF-8">
+    <title>VAMANLAN</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    }
-    h2 {
-        border-bottom: 2px solid #dddddd;
-        padding-top:20px;
-        padding-bottom:20px;
-        color:#4AAAA5;
-        font-size:20px;
-        font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
-
-    }
-    #header{
-        height:70px;
-        /* background-color: #cccccc; */
-        width:100%;
-        /* border:thick;
-        border-color:red; */
-    }
-    #menuBar{
-        float:right;
-        position:relative;
-        margin-right:125px;
-        margin-top:40px;
-        font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-        color:#cccccc;
-        
-    }
-    .Contact{
-        float: left;
-        
-        
-    }
-    .Portfolio{
-        float: left;
-        margin-right:10px;
-    }
-    .About{
-            float:left;
-            margin-right:10px;
-            
-        }
-    img{
-        height:138px;
-        width:183px;
-        position:relative;
-        float:left;
-        padding-right:10px;
-        padding-top:20px;
-
-    }
-    a:link{
-        text-decoration: none;
-        
-
-    }
-    a {
-        color:#cccccc;
-        
-    }
-    hr{
-        background-color: #cccccc;
-        padding-top:20px;
-        padding-bottom:20px;
-    }
-    .aboutMeDesc{
-        position:relative;
-        margin-left:50px;
-        color:#cccccc;
-        font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-        padding-top:20px;
-    }
-    #header {
-    border-bottom: 2px solid #DDD;
-    }
-    #footer{
-        border-top: 5px solid #4aaaa5;
-        background-color: #666666
-    }
-    .copyRight{
-        text-align: center;
-        font-size:15px;
-        font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-        color:#cccccc;
-    }
-    /* Take out the mini-space on the top site */
-    *{
-        margin:0px;
-        padding:0px;
-    }
-    .copyRight{
-        margin-top:20px;
-        margin-bottom:20px;
-    }
-    /* .copyRightSymbol{
-        margin-top:20px;
-        margin-bottom:-100px;
-        padding-left:5px;
-        margin-right:550px;
-        /* position:relative; */
-        /* float:right;
-    } */ 
-</style>
 </head>
 
 <body>
 
-<div id="header">
-    <div>
+<div id="headerP">
+    <div class="h1P">
         <h1>Vincent Manlangit</h1>
     </div>
     
 
-    <div id="menuBar">
-        <p class="About"> <a href="">About</a></p>
-        <p class="Portfolio"><a href="file:///Users/vincentmanlangit/Documents/codedir/Basic-Portfolio/portfolio.html">Porfolio</a></p>
-        <p class="Contact"><a href="">Contact</a></p>
+    <div id="menuBarP">
+        <p class="About"> <a href="../Basic-Portfolio/index.html">About</a></p> 
+        <p class="Contact"><a href="../Basic-Portfolio/contact.html">Contact</a></p>
+        <p class="Portfolio"><a href="../Basic-Portfolio/portfolio.html">Porfolio</a></p>
     </div>
 </div>
+<main>
+        <div>
+                <h2>Portfolio</h2>
+        </div>
+        <div id="firstImage">
+                 <a href="">
+                        <img  src="assets/images/firstImage.jpg"/>
+                 </a>
+                <div>
+                        <p class="label1">Sports</p>
+                </div>
+        </div>
+        <div id="secondImage">
+                <a href="">
+                        <img src="assets/images/secondImage.jpg"/>
+                </a>
+                    <div>
+                            <p class="label2">Developer</p>
+                    </div>
+        </div>
+        <div id="thirdImage">
+                <a href="">
+                        <img  src="assets/images/thirdImage.jpg"/> 
+                </a>  
+                    <div>
+                            <p class="label3">Education</p>
+                    </div>
+
+        </div>
+        <div id="fourthImage">
+                <a href="">
+                         <img  src="assets/images/fourthImage.jpg"/>
+                </a>
+                    <div>
+                            <p class="label4">Team Oriented</p>
+                    </div>
+        </div>
+        <div id="fifthImage">
+                <a href="">
+                        <img src="assets/images/fifthImage.jpg"/> 
+                </a>
+                    <div>
+                            <p class="label5">Focus</p>
+                   </div>
+        </div>
+        
+</main>
 
 
 
 
-<div id="footer">
-       <p class="copyRight">Copyright&copy;</p>
-       <!-- <p class="copyRightSymbol">&copy;</p> -->
-</div>
+<footer>
+    <span>
+        Copyright&copy;
+    </span>
+</footer>
 </body>
 
 </html>
